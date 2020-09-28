@@ -27,7 +27,7 @@ public class Hawk {
 		 so if we called mrWhiskers.miaow() then
 		 we will use mrWhiskers.name and mrWhiskers.hungry
 		*/
-		System.out.print("I'm playing with my pet " + name1 + "he is a snake");
+		System.out.print("I'm playing with my pet " + name1 + " he is a hawk");
                 // conditional . . . we haven't talked about this yet
 		// only print this part if the hungry
 		// boolean is currently true

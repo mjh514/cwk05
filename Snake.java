@@ -11,7 +11,7 @@ package cwk05;
  */
 public class Snake {
 public String name;    //name of the snake
-private double length; //size of the snake
+public double length; //size of the snake
 
 
 
@@ -30,38 +30,5 @@ private double length; //size of the snake
 	// the snake moves
 	public void slither() {
 		System.out.println(name + " slithers down the hole");
-	}
-        
-        
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        Hawk myHawk = new Hawk();
-        
-        
-        Snake mySnake = new Snake();
-        mySnake.name = "Sammy";
-        mySnake.length = 12.5;
-        
-        
-        System.out.println("Hi my name is " + mySnake.name );
-        mySnake.grow();
-        mySnake.slither();
-        
-        myHawk.play();
-        
-        
-                
-        
-        
-        
-        
-        // TODO code application logic here
-    }
-    
-    
-    
+	}  
 }
